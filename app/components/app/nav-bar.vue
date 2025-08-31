@@ -55,7 +55,7 @@
       </div>
       
       <div class="flex flex-col gap-4 mt-10">
-        <a 
+        <NuxtLink 
           v-for="item in menuItems" 
           :key="item.text" 
           :href="item.href"
@@ -63,7 +63,7 @@
           @click="toggleMenu"
         >
           {{ item.text }}
-        </a>
+        </NuxtLink>
       </div>
     </div>
   </div>
@@ -89,11 +89,11 @@ const toggleMenu = () => {
 };
 
 const menuItems = [
-  { text: 'Home', href: '#' },
-  { text: 'About me', href: '#about' },
-  { text: 'Services', href: '#services' },
-  { text: 'My work', href: '#projects' },
-  { text: 'Connect', href: '#connect' },
+  { text: 'Home', href: '/#' },
+  { text: 'About me', href: '/#about' },
+  { text: 'Services', href: '/#services' },
+  { text: 'My work', href: '/#projects' },
+  { text: 'Connect', href: '/#connect' },
   { text: 'Contact',  href:"tel:+2349036907178"  },
 ];
 </script>
