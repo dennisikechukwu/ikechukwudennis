@@ -34,7 +34,7 @@ const services = [
 </script>
 
 <template>
-  <div class="services-section mt-[100px] px-[13px] md:px-[60px]  max-w-7xl mx-auto" id="services">
+  <div class="services-section mt-[100px] px-[13px] md:px-[60px]  max-w-7xl mx-auto " id="services">
     <transition name="fade-slide" appear>
       <h2 v-if="showServices" class="text-center text-[24px] font-ovo font-regular">What i offer</h2>
     </transition>
@@ -57,7 +57,7 @@ const services = [
         v-for="(service, index) in services"
         :key="service.title"
         class="w-full sm:w-[330px] h-[330px] border-[1.5px] border-[#EFEFEF] rounded-[8px] flex flex-col items-start justify-center space-y-[20px] pl-[30px] pr-[20px]"
-        :class="{'bg-[#FCF4FF] shadow-[3px_3px_3px_rgba(0,0,0,0.2)]': index === 1}"
+        :class="{'bg-[#FCF4FF] shadow-[3px_3px_3px_rgba(0,0,0,0.2)] dark:bg-gray-800': index === 1}"
         :style="`transition-delay: ${0.45 + (index * 0.15)}s`"
       >
         <img src="/world.png" alt="" class="w-[47px] h-[47px]">

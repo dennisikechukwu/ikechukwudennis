@@ -11,9 +11,9 @@ onMounted(() => {
 </script>
 
 <template>
-    <div class="mt-[60px] flex flex-col items-center px-[10px] md:px-[60px] space-y-6">
+    <div class="mt-[60px] flex flex-col items-center px-[10px] md:px-[60px] space-y-6 ">
         <transition name="fade-slide" appear>
-            <img v-if="show" src="/big.png" alt="" class="w-[170px] h-[170px] flex justify-center items-center"
+            <img v-if="show" src="/big.png" alt="" class="w-[170px] h-[170px] flex justify-center items-center dark:rounded-full"
                 style="transition-delay: 0s" />
         </transition>
 
@@ -52,9 +52,9 @@ onMounted(() => {
     rel="noopener noreferrer"
   >
             <button
-                class="flex justify-center items-center gap-2 border border-[#A7A7A7] px-[25px] py-[15px] rounded-full text-black text-[18px] font-ovo">
+                class="flex justify-center items-center gap-2 border border-[#A7A7A7] px-[25px] py-[15px] rounded-full text-black text-[18px] font-ovo dark:text-[#565656]">
                 My resume
-                <img src="/download.png" alt="download" class="w-[14px] h-[16px]">
+                <img src="/download.png" alt="download" class="w-[14px] h-[16px] ">
             </button>
             </a>
         </div>

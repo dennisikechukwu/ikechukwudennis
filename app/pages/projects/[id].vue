@@ -73,6 +73,15 @@ const projects = [
   },
   {
     id: 3,
+    title: "Talksy",
+    image: "/talksy.png",
+    desc: "An e-commerce site for clothing.",
+    description: "An intelligent chatbot built with Next.js and Tailwind CSS, powered by Hugging Face’s Quen model for natural and human-like responses.",
+    technology: "Next.js, Tailwind CSS, Hugging Face Inference API",
+    link: "https://talksy-azure-one.vercel.app/",
+  },
+  {
+    id: 4,
     title: "Serrena",
     image: "/serrena.png",
     desc: "An e-commerce site for clothing.",
@@ -81,7 +90,7 @@ const projects = [
     link: "https://serrenna.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Stellar",
     image: "/stellar.png",
     desc: "An API security landing page",
@@ -91,7 +100,7 @@ const projects = [
 
   },
   {
-    id: 5,
+    id: 6,
     title: "Task Master",
     image: "/task.png",
     desc: "A simple to-do app.",

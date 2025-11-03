@@ -1,9 +1,10 @@
 <template>
+  use
   <div>
     <div v-if="loading" class="loading-screen">
       <div class="spinner"></div>
     </div>
-    <div v-else>
+    <div v-else class="dark:bg-gray-800">
       <NuxtLayout>
         <NuxtPage />
       </NuxtLayout>
@@ -20,7 +21,7 @@ onMounted(() => {
   // Simulate loading time
   setTimeout(() => {
     loading.value = false
-  }, 2000)
+  }, 600)
 })
 
 // This enables smooth scrolling for the entire app
