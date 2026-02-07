@@ -46,7 +46,7 @@ onMounted(() => {
             <app-arrow />
 
             <a 
-    href="/Resume.pdf" 
+    href="/dennis.pdf" 
     download 
     target="_blank" 
     rel="noopener noreferrer"
