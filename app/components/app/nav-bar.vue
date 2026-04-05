@@ -23,12 +23,7 @@
         <!-- Right Side Actions -->
         <div class="flex gap-[16px] items-center">
           <!-- 🌙 Dark Mode Toggle -->
-          <button
-            @click="toggleDarkMode"
-            class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors dark:bg-gray-700"
-          >
-            <component :is="isDark ? Sun : Moon" :size="27" />
-          </button>
+         
 
           <a
             href="tel:+2349036907178"

@@ -32,7 +32,7 @@ onMounted(() => {
         </transition>
 
         <transition name="fade-slide" appear>
-            <p v-if="show" class="text-center mt-[20px] text-[20px] leading-[40px] font-ovo text-[#565656]"
+            <p v-if="show" class="text-center mt-[20px] text-[20px] leading-[40px] font-ovo font-light text-[#565656]"
                 style="transition-delay: 0.45s">
                 I am a front-end engineer from Lagos, Nigeria, with 3 years of experience building responsive
                 <br class="hidden md:block" />

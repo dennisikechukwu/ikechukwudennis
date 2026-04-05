@@ -25,12 +25,12 @@
 
     <!-- Projects Grid -->
     <transition-group name="fade-slide" appear tag="div"
-      class="grid sm:grid-cols-2 lg:grid-cols-3 mt-[18px] gap-[20px] max-sm:gap-[70px] mx-auto">
+      class="grid sm:grid-cols-2 lg:grid-cols-3 mt-[18px] gap-[20px] max-sm:gap-[70px] mx-auto h-auto">
       <!-- First 3 projects (always visible) -->
       <NuxtLink  :to="`/projects/${project.id}`" v-if="showProjects" v-for="project in projects.slice(0, 3)" :key="project.id"
-        class="w-full sm:w-[330px] h-[280px] sm:h-[250px] border-[1.5px]  border-[#EFEFEF] rounded-[8px] flex flex-col gap-6 items-start ">
-        <img v-if="project.image" :src="project.image" alt="Project preview" class="object-cover rounded-t-md" />
-        <div class="p-2 pb-10">
+        class="w-full sm:w-[330px] h-auto sm:h-auto border-[1.5px]  border-[#EFEFEF] rounded-[8px] flex flex-col gap-6 items-start overflow-hidden">
+        <img v-if="project.image" :src="project.image" alt="Project preview" class="object-cover rounded-t-md w-full" />
+        <div class="p-2 pb-4">
           <p class="font-semibold text-[22px] font-ovo">{{ project.title }}</p>
           <p class="text-[16px] text-left font-ovo font-regular text-[#797979]">{{ project.description }}</p>
         </div>
@@ -38,9 +38,9 @@
 
       <!-- Extra projects (shown when toggled) -->
       <NuxtLink  :to="`/projects/${project.id}`" v-if="showProjects && showMore" v-for="project in projects.slice(3)" :key="project.id"
-        class="w-full sm:w-[330px] h-[280px] sm:h-[250px] border-[1.5px]  border-[#EFEFEF] rounded-[8px] flex flex-col gap-6 items-start ">
-        <img v-if="project.image" :src="project.image" alt="Project preview" class="object-cover rounded-t-md" />
-        <div class="p-2">
+        class="w-full sm:w-[330px] h-auto sm:h-auto border-[1.5px]  border-[#EFEFEF] rounded-[8px] flex flex-col gap-6 items-start overflow-hidden">
+        <img v-if="project.image" :src="project.image" alt="Project preview" class="object-cover rounded-t-md w-full" />
+        <div class="p-2 pb-4">
           <p class="font-semibold text-[22px] font-ovo">{{ project.title }}</p>
           <p class="text-[16px] text-left font-ovo font-regular text-[#797979]">{{ project.description }}</p>
         </div>
@@ -80,38 +80,56 @@ onMounted(() => {
 });
 
 const projects = [
-  {
+   {
     id: 1,
+    title: "Agent Coach",
+    image: "coach.png",
+    description: "An autonomous ai coach",
+  },
+   {
+    id: 2,
+    title: "CraftID",
+    image: "craft.png",
+    description: "An income identity engine",
+  },
+   {
+    id: 3,
+    title: "Betwixt",
+    image: "betwixt.png",
+    description: "A prediction market intelligence",
+  },
+  {
+    id: 4,
     title: "Watch Wave",
     image: "wave.png",
     description: "A video streaming site using YouTube API.",
   },
   {
-    id: 2,
+    id: 5,
     title: "Endura Fit",
     image: "endura.png",
     description: "A fitness website with API integration.",
   },
    {
-    id: 3,
+    id: 6,
     title: "Talksy",
     image: "talksy.png",
     description: "An intelligent chatbot",
   },
   {
-    id: 4,
+    id: 7,
     title: "Serrena",
     image: "serrena.png",
     description: "An e-commerce site for clothing.",
   },
   {
-    id: 5,
+    id: 8,
     title: "Stellar",
     image: "stellar.png",
     description: "An API security landing page",
   },
   {
-    id: 6,
+    id: 9,
     title: "Task Master",
     image: "task.png",
     description: "A simple to-do app.",

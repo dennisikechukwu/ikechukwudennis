@@ -8,7 +8,7 @@
       class="flex justify-center items-center gap-2 bg-[#202020] px-[25px] py-[15px] rounded-full text-white text-[18px] font-ovo"
     >
       Connect with me
-      <img src="/white-arrow.png" alt="white" class="w-[14px] h-[14px]" >
+      <img src="/white-arrow.png" alt="white" class="w-[14px] h-[11px]" >
     </button>
   </a>
 </template>

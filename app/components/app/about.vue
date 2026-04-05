@@ -43,7 +43,7 @@ onMounted(() => {
 
       <transition name="fade-slide" appear>
         <div v-if="showAbout" class="lg:max-w-[700px] flex flex-col gap-[20px]" style="transition-delay: 0.45s">
-          <p class="text-[18px] font-ovo font-regular text-[#565656] max-lg:mt-[20px]">
+          <p class="text-[18px] font-ovo font-light text-[#565656] max-lg:mt-[20px]">
             I'm a frontend engineer with 3 years of experience building responsive modern web applications. I've had the opportunity to work with respected companies, helping create impactful digital solutions.
           </p>
 

@@ -1,7 +1,7 @@
 <template>
     <footer class="mt-[30px] px-[13px] md:mx-[60px]  pb-[30px]  ">
         <div class=" flex justify-between items-center flex-wrap max-lg:justify-center max-lg:gap-[20px]">
-        <h2 class="text-[18px] font-sans font-medium text-[#626262] max-lg:text-center">© 2025 Ikechukwu Dennis. All rights reserved.</h2>
+        <h2 class="text-[18px] font-sans font-medium text-[#626262] max-lg:text-center">© 2026 Ikechukwu Dennis. All rights reserved.</h2>
         <div class="flex gap-[35px] items-center flex-wrap max-lg:justify-center">
              <h2 class="text-[18px] font-sans font-medium text-[#626262]">Terms of Services</h2>
               <h2 class="text-[18px] font-sans font-medium text-[#626262]">Privacy Policy</h2>

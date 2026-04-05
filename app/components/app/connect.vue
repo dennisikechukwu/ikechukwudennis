@@ -76,17 +76,17 @@
             >
               <img src="/mail.png" alt="mail" class="w-[32px] h-[22px]">
               <a 
-                href="mailto:Ikechukwudennis001@gmail.com" 
+                href="mailto:okwuchukwudennis001@gmail.com" 
                 class="font-sans text-[18px] font-medium text-[#797979] hover:underline"
               >
-                Ikechukwudennis001@gmail.com
+                okwuchukwudennis001@gmail.com
               </a>
             </div>
           </transition>
         </div>
       </form>
     </transition>
-    <div class="w-full bg-[#969696] p-[1px] mt-[100px]"></div>
+    <div class="w-full bg-[#969696] p-[0.5px] mt-[100px]"></div>
   </div>
 </template>
 
