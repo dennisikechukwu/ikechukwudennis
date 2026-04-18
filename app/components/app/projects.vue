@@ -80,56 +80,62 @@ onMounted(() => {
 });
 
 const projects = [
-   {
+  {
     id: 1,
+    title: "Sona",
+    image: "sona.png",
+    description: "An AI-powered video call platform ",
+  },
+   {
+    id: 2,
     title: "Agent Coach",
     image: "coach.png",
     description: "An autonomous ai coach",
   },
    {
-    id: 2,
+    id: 3,
     title: "CraftID",
     image: "craft.png",
     description: "An income identity engine",
   },
    {
-    id: 3,
+    id: 4,
     title: "Betwixt",
     image: "betwixt.png",
     description: "A prediction market intelligence",
   },
   {
-    id: 4,
+    id: 5,
     title: "Watch Wave",
     image: "wave.png",
     description: "A video streaming site using YouTube API.",
   },
   {
-    id: 5,
+    id: 6,
     title: "Endura Fit",
     image: "endura.png",
     description: "A fitness website with API integration.",
   },
    {
-    id: 6,
+    id: 7,
     title: "Talksy",
     image: "talksy.png",
     description: "An intelligent chatbot",
   },
   {
-    id: 7,
+    id: 8,
     title: "Serrena",
     image: "serrena.png",
     description: "An e-commerce site for clothing.",
   },
   {
-    id: 8,
+    id: 9,
     title: "Stellar",
     image: "stellar.png",
     description: "An API security landing page",
   },
   {
-    id: 9,
+    id: 10,
     title: "Task Master",
     image: "task.png",
     description: "A simple to-do app.",

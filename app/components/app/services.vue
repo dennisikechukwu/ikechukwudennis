@@ -47,7 +47,7 @@ const services = [
 
     <transition name="fade-slide" appear>
       <p v-if="showServices" class="mt-[18px] text-[19px] font-ovo text-[#565656] text-center" style="transition-delay: 0.3s">
-        I am a Frontend engineer with 3 years of hands-on experience, currently interning <br> to grow my skills in the tech industry.
+        I am a Frontend engineer with 3 years of hands-on experience, currently working full-time in the agri-tech industry.
       </p>
     </transition>
 

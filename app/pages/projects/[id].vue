@@ -53,17 +53,26 @@ const route = useRoute()
 const projectId = parseInt(route.params.id)
 
 const projects = [
-   {
+  {
     id: 1,
+    title: "Sona",
+    image: "/sona.png",
+    desc: "An AI-powered video call platform that transcribes every word",
+    description: "Sona is an AI-powered video call platform that transcribes every word, identifies every speaker, and hands you a clean summary with action items the moment your call ends",
+    technology: "Next.js, Typescript, CSS, LiveKit, Supabase, Redis, Typescript ",
+    link: "https://sona.dennislab.me/"
+  },
+   {
+    id: 2,
     title: "Agent Coach",
     image: "/coach.png",
     desc: "An autonomous ai coach that ensures accountability",
     description: "AgentCoach is a Web3-enabled accountability platform that combines financial incentives with AI coaching",
     technology: "Next.js, TailwindCSS, Wagmi 3.6, Supabase, Typescript ",
-    link: "https://agent-coach-chi.vercel.app/"
+    link: "https://agentcoach.dennislab.me/"
   },
    {
-    id: 2,
+    id: 3,
     title: "CraftID",
     image: "/craft.png",
     desc: "An income identity engine",
@@ -72,7 +81,7 @@ const projects = [
     link: "https://craft-id-ecru.vercel.app/"
   },
    {
-    id: 3,
+    id: 4,
     title: "Betwixt",
     image: "/betwixt.png",
     desc: "A video streaming site using YouTube API.",
@@ -81,7 +90,7 @@ const projects = [
     link: "https://betwixt-bice.vercel.app/"
   },
   {
-    id: 4,
+    id: 5,
     title: "Watch Wave",
     image: "/wave.png",
     desc: "A video streaming site using YouTube API.",
@@ -90,7 +99,7 @@ const projects = [
     link: "https://watch-waves.vercel.app/"
   },
   {
-    id: 5,
+    id: 6,
     title: "Endura Fit",
     image: "/endura.png",
     desc: "A fitness website with API integration.",
@@ -99,7 +108,7 @@ const projects = [
     link: "https://endura-fit.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Talksy",
     image: "/talksy.png",
     desc: "An e-commerce site for clothing.",
@@ -108,7 +117,7 @@ const projects = [
     link: "https://talksy-azure-one.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Serrena",
     image: "/serrena.png",
     desc: "An e-commerce site for clothing.",
@@ -117,7 +126,7 @@ const projects = [
     link: "https://serrenna.vercel.app/",
   },
   {
-    id: 8,
+    id: 9,
     title: "Stellar",
     image: "/stellar.png",
     desc: "An API security landing page",
@@ -127,7 +136,7 @@ const projects = [
 
   },
   {
-    id: 9,
+    id: 10,
     title: "Task Master",
     image: "/task.png",
     desc: "A simple to-do app.",
